@@ -1,0 +1,26 @@
+# --- BOUTIQUE SYSTEM ---
+
+print("--- DAILY BOUTIQUE CONTROL ---")
+
+# Inputs using your exact notebook system:
+SB = float(input("Enter Starting Balance (cash at opening): "))
+REV = float(input("Enter Today's Total Sales (Revenue): "))
+EXP = float(input("Enter Today's Expenses: "))
+
+# Your mathematical formula:
+FB = SB + REV - EXP
+
+print("\n--- END OF DAY RESULT ---")
+print("The Final Balance (FB) in the register must be:", FB)
+
+# Your decision logic (if / elif / else):
+if FB > SB:
+    profit = FB - SB
+    print("Success! The boutique made a Profit of:", profit)
+
+elif FB == SB:
+    print("Even day. No profit, no loss.")
+
+else:
+    loss = SB - FB
+    print("Warning! The boutique had a Loss of:", loss)
