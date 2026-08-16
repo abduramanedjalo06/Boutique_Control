@@ -1,4 +1,4 @@
-/<>
+/
 # 🏪 Boutique_Control
 
 A smart financial management system built to automate daily sales control and cash flow tracking for a local boutique in Guinea-Bissau.
