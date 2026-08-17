@@ -1,9 +1,9 @@
 # Boutique Control System by Abduramane
 # Formula: FB = SB + REV - EXP
 
-SB = 15000   # Starting Balance (XOF)
+SB = 20000   # Starting Balance (XOF)
 REV = 40000  # Revenue
-EXP = 10000  # Expenses
+EXP = 15000  # Expenses
 
 FB = SB + REV - EXP
 result = FB - SB
