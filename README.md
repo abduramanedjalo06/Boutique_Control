@@ -1,9 +1,9 @@
-<<//>
+<<//>>
 # 🏪 Boutique_Control
 
 A smart financial management system built to automate daily sales control and cash flow tracking for a local boutique in Guinea-Bissau.
 
-## 📝 The Story Behind the Project
+# 📝 The Story Behind the Project
 When my uncle leaves me in charge of the boutique, I usually record every single daily sale in a paper notebook. To minimize human error and automate the end-of-day financial balance, I created this software.
 
 ## 📊 The Core Formula
