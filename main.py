@@ -2,7 +2,7 @@
 # Formula: FB = SB + REV - EXP
 
 SB = 20000   # Starting Balance (XOF)
-REV = 40000  # Revenue
+REV =input("...")  # Revenue
 EXP = 15000  # Expenses
 
 FB = SB + REV - EXP
