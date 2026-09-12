@@ -1,6 +1,6 @@
 # Simple program made by Abduramane Djaló <AD Tech>  
 
-<img width="3060" height="4080" alt="1000005133" src="https://github.com/user-attachments/assets/01469956-6c62-43c3-92a8-eeb5b0167f86" [Controlling expired products
+<img width="3050" height="4050" alt="1000005133" src="https://github.com/user-attachments/assets/01469956-6c62-43c3-92a8-eeb5b0167f86" [Controlling expired products
  ](https://github.com)/>
 
 # 🏪 Boutique_Control 
