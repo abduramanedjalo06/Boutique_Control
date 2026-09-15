@@ -14,4 +14,7 @@ It works, but it's very laborious and takes me a long time to write down sales a
 
 So, I decided to use the little programming I've learned to create a simple program to help me do the calculations.
 
+#How to calculate 
+The calculation is: 
 
+**Final Balance = Initial Balance + Sales - Expenses**
