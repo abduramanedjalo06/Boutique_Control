@@ -14,7 +14,12 @@ It works, but it's very laborious and takes me a long time to write down sales a
 
 So, I decided to use the little programming I've learned to create a simple program to help me do the calculations.
 
-#How to calculate 
+# How to calculate 
 The calculation is: 
 
 **Final Balance = Initial Balance + Sales - Expenses**
+
+**Initial Balance:** cash from the beginning of the day in the boutique.
+**Sales:** cash from the day's sales.
+**Expenses:** money taken from the boutique, such as loans and payments to suppliers.
+**Final Balance:** the final amount after the day's sales and expenses.
