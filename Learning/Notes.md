@@ -50,4 +50,9 @@ int main()
     return 0;
 }
 
-
+# What I learned 
+It seems that the understanding has become a little clearer. I learned to create my own function that is now recognized as a function.
+Because before, I would suddenly put a word and the compiler would show me an undeclared function and I wouldn't understand that.
+I learned to create a function in both C and Python. In C, I create it before int main and the complete definition can come after, and I define within the parentheses () what it should receive...
+In Python I use def (define). Just like in C, I show within the parentheses what it should do and call it afterward.
+I also learned something important: functions in Python end with a colon : and use spaces (indentation) to indicate that this belongs to this function. Unlike C, which uses a semicolon ; at the end of variable lines and curly braces {...} to open and close a function's code block.
