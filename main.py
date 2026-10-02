@@ -20,5 +20,7 @@ Starting_Balance = float(input("Enter the value of Starting_Balance: "))
 Revenue = float(input("Enter the value of Revenue: "))
 Expenses = float(input("Enter the value of Expenses: ")) 
 
+print(f"The final balance is: {Final_Balance} XOF")
+
 Sales_Control(Starting_Balance, Revenue, Expenses)
 
