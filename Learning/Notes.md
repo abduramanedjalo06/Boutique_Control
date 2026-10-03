@@ -58,3 +58,6 @@ In Python I use def (define). Just like in C, I show within the parentheses what
 I also learned something important: functions in Python end with a colon : and use spaces (indentation) to indicate that this belongs to this function. Unlike C, which uses a semicolon ; at the end of variable lines and curly braces {...} to open and close a function's code block.
 
 And I realized that with f-string I can directly use the variable name inside the curly braces in Python print statements without needing to specify %d, %f, %c, %s...
+
+# bug
+I've encountered a bug that I don't know why! My Python code in VS Code (Codespace) shows "Name not defined".
