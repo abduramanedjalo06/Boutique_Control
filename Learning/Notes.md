@@ -61,3 +61,6 @@ And I realized that with f-string I can directly use the variable name inside th
 
 # bug
 I've encountered a bug that I don't know why! My Python code in VS Code (Codespace) shows "Name not defined".
+
+## Study the reason for the error.  
+I don't know, but I'm not very familiar with declaring functions yet. Yes, I learned how to create functions and declared Final_Balance above, but in the terminal I see that it wasn't declared, and I still don't know exactly what's happening.
