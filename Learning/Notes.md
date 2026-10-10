@@ -64,3 +64,6 @@ I've encountered a bug that I don't know why! My Python code in VS Code (Codespa
 
 ## Study the reason for the error.  
 I don't know, but I'm not very familiar with declaring functions yet. Yes, I learned how to create functions and declared Final_Balance above, but in the terminal I see that it wasn't declared, and I still don't know exactly what's happening.
+
+## I am beginning to learn the Loops For/while and array:
+Today I am learning the loops for/while, and array.
