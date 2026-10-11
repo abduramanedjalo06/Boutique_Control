@@ -4,11 +4,11 @@
 
 Yesterday, I learned some differences between C and Python.
 
-In C, we use `#include <stdio.h>` for standard input and output.
+In C, we use #include <stdio.h> for standard input and output.
 
-In Python, I learned that `print()` is used to show something on the screen, and `input()` waits for me to type something.
+In Python, I learned that print() is used to show something on the screen, and input() waits for me to type something.
 
-I also learned about `float`. It is used for decimal numbers, like money and height.
+I also learned about float. It is used for decimal numbers, like money and height.
 
 
 ## What I learned today 
@@ -67,3 +67,19 @@ I don't know, but I'm not very familiar with declaring functions yet. Yes, I lea
 
 ## I am beginning to learn the Loops For/while and array:
 Today I am learning the loops for/while, and array.
+
+## What I learned today 
+
+Not bad! Although I thought about giving up on learning C several times because I constantly saw errors in the terminal. But my AI tutor gave me the courage and motivation to continue.
+
+I also learned about other libraries, such as <ctype.h> for toupper() and tolower(), <stdbool.h> for bool, true, and false, and <math.h> for powers and square roots.
+
+Before, I thought there was only one library, <stdio.h>, for data input and output. I would write all the lines of code, review everything, and think it was all right. I believed the program would work, but when I ran it, I saw many errors in the terminal!
+
+In mathematics, like the formula for electrostatic force, which uses the electrostatic constant K = 9.0 × 10⁹ N·m²/C², and the quadratic formula, where I had problems with the square root of delta without specifying the <math.h> library above.
+
+An array is like drawers that hold values ​​under the same variable name.
+
+I'm still learning about for and while loops little by little. They're still difficult for me, and what tires me is remembering the [i]. I need to put it after the array name, like name[i], but I always forget.
+
+Sometimes, the way I write my code makes the program work differently than I expect. For example, putting else inside a for loop, or using return 1; inside the loop, which causes the program to stop before checking the other elements of the array.
