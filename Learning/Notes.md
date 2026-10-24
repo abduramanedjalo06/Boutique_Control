@@ -83,3 +83,8 @@ An array is like drawers that hold values ​​under the same variable name.
 I'm still learning about for and while loops little by little. They're still difficult for me, and what tires me is remembering the [i]. I need to put it after the array name, like name[i], but I always forget.
 
 Sometimes, the way I write my code makes the program work differently than I expect. For example, putting else inside a for loop, or using return 1; inside the loop, which causes the program to stop before checking the other elements of the array.
+
+
+# what I did learn during these days:
+
+I've come to understand better that the for loop is very helpful for repeating names multiple times without having to print them multiple times on the screen.
