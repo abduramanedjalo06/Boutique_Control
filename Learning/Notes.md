@@ -88,3 +88,21 @@ Sometimes, the way I write my code makes the program work differently than I exp
 # what I did learn during these days:
 
 I've come to understand better that the for loop is very helpful for repeating names multiple times without having to print them multiple times on the screen.
+
+Ex:
+
+1)
+   char name[] = "abduramane";
+  printf("%s\n", name);
+  printf("%s\n", name);
+  printf("%s\n", name);
+  printf("%s\n", name);
+  printf("%s\n", name);
+
+
+2)
+
+for (int i = 0; i <= 5; i++)
+{
+   printf("Abduramane\n");
+}
