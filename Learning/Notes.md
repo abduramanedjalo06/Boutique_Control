@@ -106,3 +106,6 @@ for (int i = 0; i <= 5; i++)
 {
    printf("Abduramane\n");
 }
+
+## how I'm learning 
+I am currently learning the asterisk (*) pointer and hexadecimal numbers for RGB colors, and further down the line, the algorithm.
