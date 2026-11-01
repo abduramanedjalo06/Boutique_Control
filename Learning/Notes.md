@@ -107,5 +107,8 @@ for (int i = 0; i <= 5; i++)
    printf("Abduramane\n");
 }
 
-## how I'm learning 
+## What I'm learning 
 I am currently learning the asterisk (*) pointer and hexadecimal numbers for RGB colors, and further down the line, the algorithm.
+
+## What I'm learning today 
+I'm currently struggling with the scanset %[^\n] to read names with spaces in scanf because I saw that it doesn't work with %s (strings).
