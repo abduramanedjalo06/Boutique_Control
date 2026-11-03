@@ -1,8 +1,9 @@
+/ My projects in Python 
 # Boutique_Control
 
 def Sales_Control(Starting_Balance, Revenue, Expenses):
 
-  Final_Balance = Starting_Balance + Revenue - Expenses
+   Final_Balance = Starting_Balance + Revenue - Expenses
 
   if Final_Balance > Starting_Balance:
 
