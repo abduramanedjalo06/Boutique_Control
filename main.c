@@ -3,11 +3,11 @@ float Sales_Control(float SB, float REV, float EXP)
 {
    float FB = SB + REV-EXP;
 
-   if (FB > SB)
+   if (FB > 0)
    {
       printf("Positive Balance\n");
    }
-else if (FB < SB)
+else if (FB < 0)
 {
    printf("Negative Balance\n");
 }
