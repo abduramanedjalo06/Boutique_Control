@@ -112,3 +112,6 @@ I am currently learning the asterisk (*) pointer and hexadecimal numbers for RGB
 
 ## What I'm learning today 
 I'm currently struggling with the scanset %[^\n] to read names with spaces in scanf because I saw that it doesn't work with %s (strings).
+
+## what I learned today 
+Today I looked deeper into strings, where I learned more about strcmp (string comparison) from the <string.h> library, to compare words. Before, I only used if without strcmp, thinking it would compile. Yes, it compiles, but it always falls into the else command even if every word is the same, or sometimes it shows that I'm trying to compare strings of the integer.
