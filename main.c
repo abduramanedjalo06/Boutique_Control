@@ -2,31 +2,39 @@
 float Sales_Control(float SB, float REV, float EXP)
 {
    float FB = SB + REV-EXP;
-
-   if (FB > 0)
+   float lucro = FB - SB;
+   
+   if (lucro > 0)
    {
-      printf("Positive Balance\n");
+      printf(" %.2f XOF, Positive Balance\n", lucro);
    }
-else if (FB < 0)
-{
-   printf("Negative Balance\n");
-}
-else {
+  else if (lucro < 0)
+   {
+   printf("%.2f XOF, Negative Balance\n", lucro);
+   }
+  else 
+  {
    printf("Neutral Balance\n");
-}
-return FB;
+  }
+   return FB;
+   return lucro;
 }
 
 int main()
 {
     printf("===BOUTIQUE_CONTROL===\n");
    
-   float SB,REV, EXP,FB;
-printf("digitar o valor de SB, REV,EXP\n");
+   float SB,REV, EXP,
+printf("Entre o saldo inicial:");
+   printf("Entre a venda diária:");
+   printf("Entre a despesa:");
+   
 scanf("%f %f %f", &SB, &REV, &EXP);
+   
+float FB = Sales_Control(SB,REV,EXP);
+   printf("O Final_Balance é: %.2f XOF", FB);
 
-FB = Sales_Control(SB,REV,EXP);
-printf("O Final_Balance é: %.2f XOF", FB);
-
-return 0;
+float lucro = Sales_Control(FB, SB);
+   printf("O lucro de hoje é: %.2f XOF,\n", lucro);   
+      return 0;
 }
