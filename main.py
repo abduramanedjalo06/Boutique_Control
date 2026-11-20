@@ -1,25 +1,22 @@
-/ My projects in Python 
-# Boutique_Control
+#BOUTIQUE_CONTROL 
 
-def Sales_Control(Starting_Balance, Revenue, Expenses):
+print("BOUTIQUE_CONTROL")
 
-   Final_Balance = Starting_Balance + Revenue - Expenses
+SB = float(input("SB:"))
+REV = float(input("REV:"))
+EXP = float(input("EXP"))
 
-  if Final_Balance > Starting_Balance:
+FB = SB + REV - EXP
+print("\nO Saldo Final é:\n", FB)
+print("XOF")
 
-    print(f"POSITIVE! High Revenue, the value is: {Final_Balance} XOF")
-
-  elif Final_Balance < Starting_Balance:
-
-    print(f"NEGATIVE! Low Revenue, the value is: {Final_Balance} XOF")
-
-  else:
-
-    print(f"TIE! There was neither Loss nor Gain, the value is: {Final_Balance} XOF")
-
-Starting_Balance = float(input("Enter the value of Starting_Balance: "))
-Revenue = float(input("Enter the value of Revenue: "))
-Expenses = float(input("Enter the value of Expenses: ")) 
-
-Sales_Control(Starting_Balance, Revenue, Expenses)
+if FB > 0:
+    print("BALANÇO POSITIVO")
+    
+elif FB < 0:
+    print("BALANÇO NEGATIVO")
+    
+else:
+    print("EMPATE")
+    
 
