@@ -8,7 +8,7 @@ float Sales_Control(float SB, float REV, float EXP)
 
 int main()
 {
-    printf("===BOUTIQUE_CONTROL===\n");
+    printf("BOUTIQUE_CONTROL\n");
    
    float SB,REV, EXP;
    
@@ -28,12 +28,12 @@ float lucro = FB - SB;
 
 if (lucro > 0)
 {
-    printf("%.2f XOF,  SUCESSO!\n", lucro);
+    printf("O SALDO FINAL É: %.2f XOF,  SUCESSO!\n",  lucro);
 }
 
-else if (lucro < 0)
+else if (float perda = SB - FB)
 {
-    printf("\n %.2f XOF, QUEDA NO BALANÇO!\n", lucro);
+    printf("\n %.2f XOF, QUEDA NO BALANÇO!\n", perda);
 }
 
 else
