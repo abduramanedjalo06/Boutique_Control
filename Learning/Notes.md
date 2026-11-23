@@ -115,3 +115,6 @@ I'm currently struggling with the scanset %[^\n] to read names with spaces in sc
 
 ## what I learned today 
 Today I looked deeper into strings, where I learned more about strcmp (string comparison) from the <string.h> library, to compare words. Before, I only used if without strcmp, thinking it would compile. Yes, it compiles, but it always falls into the else command even if every word is the same, or sometimes it shows that I'm trying to compare strings of the integer.
+
+I just learned more about C syntax; every variable declared within a function using the parentheses {} is only present inside that function. If you don't declare the type outside of that function, errors will appear in the terminal... 
+
