@@ -121,3 +121,20 @@ I just learned more about C syntax; every variable declared within a function us
 
 
 I am learning how to create a file in C using the `w` mode, and I understand that `r` is used to read the file.
+
+    WE USE THE NAME 'FILE' IN UPPER.
+EX:
+     FILE *AD = fopen("main.c", "r");
+if (AD == NULL)
+{
+   printf("ERRO!\n");
+   return 1;
+}...
+
+In this case, I used 'r' because I already have a main.c file to read it from without 'w', which handles creating a new file.
+
+I understood that it was worthwhile to use the if condition in case the file is not found, so that it returns 1, which is an error, and stops immediately. 
+
+
+
+
