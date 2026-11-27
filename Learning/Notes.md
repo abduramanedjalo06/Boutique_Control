@@ -118,3 +118,6 @@ Today I looked deeper into strings, where I learned more about strcmp (string co
 
 I just learned more about C syntax; every variable declared within a function using the parentheses {} is only present inside that function. If you don't declare the type outside of that function, errors will appear in the terminal... 
 
+
+
+I am learning how to create a file in C using the `w` mode, and I understand that `r` is used to read the file.
